@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MorePatternsInMorePlaces
+﻿namespace MorePatternsInMorePlaces
 {
     public class Point
     {
@@ -13,17 +9,6 @@ namespace MorePatternsInMorePlaces
 
         public void Deconstruct(out int x, out int y) =>
             (x, y) = (X, Y);
-    }
-
-    public enum Quadrant
-    {
-        Unknown,
-        Origin,
-        One,
-        Two,
-        Three,
-        Four,
-        OnBorder
     }
 
     class PositionalPatterns
@@ -39,4 +24,17 @@ namespace MorePatternsInMorePlaces
             _ => Quadrant.Unknown
         };
     }
+
+    #region Types
+    public enum Quadrant
+    {
+        Unknown,
+        Origin,
+        One,
+        Two,
+        Three,
+        Four,
+        OnBorder
+    }
+    #endregion
 }

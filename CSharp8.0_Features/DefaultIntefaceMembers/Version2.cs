@@ -20,6 +20,7 @@ namespace DefaultIntefaceMembers.Version2
         string Name { get; }
         IDictionary<DateTime, string> Reminders { get; }
 
+
         public static void SetLoyaltyThresholds(
             TimeSpan ago,
             int minimumOrders = 10,
@@ -29,7 +30,8 @@ namespace DefaultIntefaceMembers.Version2
             orderCount = minimumOrders;
             discountPercent = percentageDiscount;
         }
-        private static TimeSpan length = new TimeSpan(365 * 2, 0, 0, 0); // two years
+
+        private static TimeSpan length = new TimeSpan(365 * 2, 0, 0, 0);
         private static int orderCount = 10;
         private static decimal discountPercent = 0.10m;
 

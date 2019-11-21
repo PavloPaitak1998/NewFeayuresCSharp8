@@ -1,30 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace MorePatternsInMorePlaces
 {
-    public class Car
-    {
-        public int Passengers { get; set; }
-    }
-
-    public class DeliveryTruck
-    {
-        public int GrossWeightClass { get; set; }
-    }
-
-    public class Taxi
-    {
-        public int Fares { get; set; }
-    }
-
-    public class Bus
-    {
-        public int Capacity { get; set; }
-        public int Riders { get; set; }
-    }
-
     class CompleteUsage
     {
         public object CalculateToll1(object vehicle) =>  vehicle switch
@@ -81,4 +58,29 @@ namespace MorePatternsInMorePlaces
             null => throw new ArgumentNullException(nameof(vehicle))
         };
     }
+
+
+    #region Types
+    public class Car
+    {
+        public int Passengers { get; set; }
+    }
+
+    public class DeliveryTruck
+    {
+        public int GrossWeightClass { get; set; }
+    }
+
+    public class Taxi
+    {
+        public int Fares { get; set; }
+    }
+
+    public class Bus
+    {
+        public int Capacity { get; set; }
+        public int Riders { get; set; }
+    }
+
+    #endregion
 }
