@@ -1,5 +1,0 @@
-C:\Users\pavlo.paitak\source\repos\CSharp8.0_Features\MorePatternsInMorePlaces\bin\Debug\netcoreapp3.0\MorePatternsInMorePlaces.deps.json
-C:\Users\pavlo.paitak\source\repos\CSharp8.0_Features\MorePatternsInMorePlaces\bin\Debug\netcoreapp3.0\MorePatternsInMorePlaces.dll
-C:\Users\pavlo.paitak\source\repos\CSharp8.0_Features\MorePatternsInMorePlaces\obj\Debug\netcoreapp3.0\MorePatternsInMorePlaces.csprojAssemblyReference.cache
-C:\Users\pavlo.paitak\source\repos\CSharp8.0_Features\MorePatternsInMorePlaces\obj\Debug\netcoreapp3.0\MorePatternsInMorePlaces.AssemblyInfoInputs.cache
-C:\Users\pavlo.paitak\source\repos\CSharp8.0_Features\MorePatternsInMorePlaces\obj\Debug\netcoreapp3.0\MorePatternsInMorePlaces.AssemblyInfo.cs
