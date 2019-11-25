@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace DefaultIntefaceMembers
+namespace DefaultIntefaceMembers._007_Idea
 {
     public interface ISample
     {
-        event Action<int> ActivityChanged
+        public event Action<int> ActivityChanged
         {
             add { throw new NotImplementedException(); }
             remove { throw new NotImplementedException(); }
@@ -16,19 +16,13 @@ namespace DefaultIntefaceMembers
             set { throw new NotImplementedException(); }
         }
 
-        int MyProperty
+        public int MyProperty
         {
-            get
-            {
-                throw new NotImplementedException();
-            }
-            set
-            {
-                throw new NotImplementedException();
-            }
+            get { throw new NotImplementedException(); }
+            set { throw new NotImplementedException(); }
         }
 
-        void Foo(string message)
+        public void Foo(string message)
         {
             throw new NotImplementedException();
         }
